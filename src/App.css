@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nextbutton{
+  width: 90px;
+  height: 30px;
+  color:black;
+  font-size:20px;
+  font-weight: 600;
+  background-color:skyblue;
+  border-color: skyblue;
+  text-align: center;
+  border-radius: 5px;
+}
+.nextbutton:hover{
+  background-color: white;
+  border-color:white;
+}
+.profile{
+  border-radius: 50%;
+  height: 75%;
+  width: 75%;
+}
+.searchbutton{
+  border: none;
+  background-color: skyblue;
+  font-size: 20px;
+  width: 100px;
+  font-weight: 600;
+  color: black;
+}
+.searchBox{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 40px;
+  height: 30px;
+}
+.searchBox input{
+  padding: 12px;
+  font-size: 16px;
+  border:none;
+}
+.searchbutton:hover{
+  background-color: white;
+  border-color:white;
+}
+.first{
+  font-size: 4.5rem;
+  text-decoration: none;
+  color: wheat;
+}
+.second{
+  font-size: 4rem;
+  text-decoration: none;
+  color: wheat;
+}
+.first:hover{
+  color: #61dafb;
+}
+.second:hover{
+  color: #61dafb;
+}
